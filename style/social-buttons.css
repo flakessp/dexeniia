@@ -33,13 +33,10 @@
   border: 1.5px solid #00ff6a;
 }
 
-/* .social-buttons a:not(:first-child) {
-
-} */
-
 .social-buttons a:first-child {
   border: none;
   background-color: transparent;
+  line-height: 0;
 }
 
 .social-buttons a:first-child:hover {
