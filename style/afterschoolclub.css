@@ -1,0 +1,55 @@
+.afterschoolclub {
+  border-bottom: 2px solid black;
+  padding-bottom: 60px;
+  justify-items: start;
+  display: grid;
+  grid-column-gap: 0;
+  grid-area: afterschoolclub;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "afterschoolclub-title afterschoolclub-title"
+    "poster ."
+    "kd-book .";
+}
+
+.afterschoolclub-title {
+  display: grid;
+  margin: 16px 0 15px 8px;
+  grid-area: afterschoolclub-title;
+  grid-template-rows: 1fr;
+  grid-template-columns: 5vw 1fr;
+  grid-template-areas:
+    "year-2018 afterschool";
+}
+
+.afterschoolclub-title span {
+  text-decoration: underline;
+}
+
+.afterschool {
+  display: grid;
+  grid-area: afterschool;
+  padding-left: 19px;
+}
+
+.offenbach {
+  display: grid;
+  grid-area: offenbach;
+  padding-left: 19px;
+}
+
+.year-2018 {
+  display: grid;
+  grid-area: year-2018;
+}
+
+.poster {
+  display: grid;
+  grid-area: poster;
+}
+
+.kd-book {
+  display: grid;
+  grid-area: kd-book;
+}

@@ -1,0 +1,81 @@
+.stateid {
+  white-space: nowrap;
+  border-bottom: 2px solid black;
+  display: grid;
+  grid-column-gap: 0;
+  padding-bottom: 60px;
+  grid-area: stateid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-areas:
+    "stateid-title stateid-title"
+    "stateid-link stateid-link"
+    "stateid-img1 ."
+    "stateid-img2 ."
+    "stateid-img3 ."
+    "stateid-img4 .";
+}
+
+.stateid-title {
+  display: grid;
+  margin: 16px 0px 15px 8px;
+  grid-area: stateid-title;
+  grid-template-columns: 5vw 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "year-2018-3 stateid-text";
+}
+
+.stateid-title span {
+  text-decoration: underline;
+}
+
+.stateid-text {
+  display: grid;
+  grid-area: stateid-text;
+}
+
+.stateid-img1 {
+  display: grid;
+  grid-area: stateid-img1;
+}
+
+.stateid-img2 {
+  display: grid;
+  grid-area: stateid-img2;
+}
+
+.stateid-img3 {
+  display: grid;
+  grid-area: stateid-img3;
+}
+
+.stateid-img4 {
+  display: grid;
+  grid-area: stateid-img4;
+}
+
+.stateid-link {
+  display: grid;
+  grid-area: stateid-link;
+  justify-items: center;
+  padding-bottom: 15px;
+}
+
+.stateid-link a {
+  border: 1.5px solid black;
+  font-family: 'Times New Roman';
+  border-radius: 28px;
+  font-size: 1.1vw;
+  text-decoration: none;
+  color: black;
+  width: auto;
+  height: auto;
+  background-color: white;
+  padding: 0.25vw 1.5vw 0.25vw 1.5vw;
+}
+
+.stateid-link a:hover {
+  background-color: #00ff6a;
+  border: 1.5px solid #00ff6a;
+}

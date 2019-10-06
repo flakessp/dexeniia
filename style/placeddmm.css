@@ -1,0 +1,89 @@
+.placeddmm-cont {
+  white-space: nowrap;
+  border-bottom: 2px solid black;
+  display: grid;
+  grid-column-gap: 0;
+  padding-bottom: 60px;
+  grid-area: placeddmm-cont;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-areas:
+    "placeddmm-cont-title placeddmm-cont-title"
+    "placeddmm-link placeddmm-link"
+    "nackedletters ."
+    "placegif ."
+    "placemap .";
+}
+
+.placeddmm-cont-title {
+  display: grid;
+  margin: 16px 0 0 8px;
+  grid-area: placeddmm-cont-title;
+  grid-template-columns: 5vw 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "year-2018-2 placeddmm";
+}
+
+.placeddmm-cont-title span {
+  text-decoration: underline;
+}
+
+.placeddmm-link {
+  display: grid;
+  grid-area: placeddmm-link;
+  justify-items: center;
+}
+
+.placeddmm-link a {
+  border: 1.5px solid black;
+  font-family: 'Times New Roman';
+  border-radius: 28px;
+  font-size: 1.1vw;
+  text-decoration: none;
+  color: black;
+  width: auto;
+  height: auto;
+  background-color: white;
+  padding: 0.25vw 1.5vw 0.25vw 1.5vw;
+}
+
+.placeddmm-link a:hover {
+  background-color: #00ff6a;
+  border: 1.5px solid #00ff6a;
+}
+
+.placeddmm {
+  display: grid;
+  grid-area: placeddmm;
+}
+
+.possibility {
+  display: grid;
+  grid-area: possibility;
+}
+
+.eachroom {
+  display: grid;
+  grid-area: eachroom;
+}
+
+.year-2018-2 {
+  display: grid;
+  grid-area: year-2018-2;
+}
+
+.nackedletters {
+  display: grid;
+  grid-area: nackedletters;
+}
+
+.placegif {
+  display: grid;
+  grid-area: placegif;
+}
+
+.placemap {
+  display: grid;
+  grid-area: placemap;
+}
